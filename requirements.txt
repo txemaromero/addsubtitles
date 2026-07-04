@@ -1,0 +1,11 @@
+# addsubtitles has no PyPI dependencies: it uses only the Python standard
+# library (tkinter, subprocess, json, re, pathlib, threading, queue…).
+#
+# That is why this file lists no packages and `pip install -r requirements.txt`
+# will not install anything.
+#
+# External requirements (not installed with pip):
+#   - Python 3.10 or later
+#   - tkinter (included in the standard Python installer on Windows/macOS;
+#     on Linux it may require the system package, e.g. `sudo apt install python3-tk`)
+#   - FFmpeg and ffprobe available on the PATH  ->  https://ffmpeg.org/download.html

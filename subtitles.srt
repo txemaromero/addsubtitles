@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:09,080
+Configured 4 cryptocurrencies.
+
+2
+00:00:11,140 --> 00:00:27,110
+java -jar cryptovalues.jar | ./parse_crypto_lcd.sh --priority "BTC,ETH,SOL,ADA" --invested 5500
